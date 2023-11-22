@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Preloader1 from "./components/Preloader1";
+import Preloader2 from "./components/Preloader2";
+import Preloader3 from "./components/Preloader3";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Preloader1 />
+        {/* <Preloader2 /> */}
+        {/* <Preloader3 /> */}
       </header>
     </div>
   );
